@@ -53,13 +53,29 @@
 .white{color:#fff}
 
 .container{
-    backgorund-color: white;
+    background-color: white;
+}
+
+.task area{
+    border:1px solid lightslategray;
 }
 
 .task-tabs{
     display: flex;
+    border-bottom: 1px solid lightslategray;
+    position: relative;
+}
+ 
+.task-tabs div{
+    padding:1em;
 }
 
-.task-tabs div{
-padding:1em;
+#under-line{
+height:4px;
+background-color:blueviolet;
+position: absolute;
+width:50px;
+left: 0px;
+top:60px;
+padding:0px;
 }
